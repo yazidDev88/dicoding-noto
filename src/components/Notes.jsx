@@ -2,12 +2,6 @@ import React from "react";
 import parse from 'html-react-parser';
 import { formatDateDay, formatDateMonth, showFormattedDate } from "../utils";
 
-function moreText(text, maxLength) {
-    if (text.length > maxLength) {
-        return text.slice(0, maxLength) + "...";
-    }
-    return text;
-}
 export function Notes({ title, body, date, onClick }) {
     const dates = new Date(date).toLocaleDateString('id-ID', {
         day: '2-digit'
