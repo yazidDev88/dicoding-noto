@@ -13,7 +13,7 @@
 3. **Pengelompokan**
    - Pisahkan catatan aktif dan arsip.
 4. **Speech-to-Text**
-   - Dukungan untuk bahasa Indonesia dan Inggris.
+   - Dukungan untuk bahasa Indonesia
 5. **Keyboard Shortcuts**
    - **Ctrl+Shift+D**: Hapus semua catatan.
    - **Ctrl+D**: Hapus catatan yang dipilih.
@@ -30,7 +30,7 @@
 ### Langkah Instalasi
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/personal-notes-starter.git
+   git clone https://github.com/yazidDev88/dicoding-noto
    ```
 2. Masuk ke direktori proyek:
    ```bash
@@ -60,10 +60,11 @@
 ├── src
 │   ├── components
 │   │   ├── Card.jsx
-│   │   ├── NotesList.jsx
-│   │   ├── Notes.jsx
+│   │   ├── Container.jsx
+│   │   ├── FormNote.jsx
 │   │   ├── NoteDetail.jsx
-│   │   └── FormNote.jsx
+│   │   ├── Notes.jsx
+│   │   └── NoteList.jsx
 │   ├── main.jsx
 │   ├── App.css
 │   ├── utils.js
@@ -78,22 +79,6 @@
 - **React**: Untuk membuat antarmuka pengguna.
 - **Vite**: Untuk pengembangan aplikasi.
 - **SpeechRecognition API**: Untuk mendukung *speech-to-text*.
-
-## Kontribusi
-1. Fork repositori ini.
-2. Buat cabang fitur baru:
-   ```bash
-   git checkout -b fitur-baru
-   ```
-3. Commit perubahan:
-   ```bash
-   git commit -m "Menambahkan fitur baru"
-   ```
-4. Push ke repositori Anda:
-   ```bash
-   git push origin fitur-baru
-   ```
-5. Ajukan *pull request*.
 
 ## Lisensi
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
