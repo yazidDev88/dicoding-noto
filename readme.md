@@ -1,7 +1,7 @@
-# Personal Notes Starter
+# Noto
 
 ## Deskripsi
-**Personal Notes Starter** adalah aplikasi web sederhana untuk mengelola catatan. Aplikasi ini memungkinkan pengguna untuk menambahkan, mengedit, mengarsipkan, dan menghapus catatan. Selain itu, aplikasi mendukung pencarian catatan, pengelompokan catatan aktif dan arsip, serta fitur *speech-to-text* untuk menambahkan catatan secara langsung melalui suara.
+**Noto** adalah aplikasi web sederhana untuk mengelola catatan. Aplikasi ini memungkinkan pengguna untuk menambahkan, mengedit, mengarsipkan, dan menghapus catatan. Selain itu, aplikasi mendukung pencarian catatan, pengelompokan catatan aktif dan arsip, serta fitur *speech-to-text* untuk menambahkan catatan secara langsung melalui suara.
 
 ## Fitur
 1. **Kelola Catatan**
