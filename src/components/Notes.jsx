@@ -3,12 +3,6 @@ import parse from 'html-react-parser';
 import { formatDateDay, formatDateMonth, showFormattedDate } from "../utils";
 
 export function Notes({ title, body, date, onClick }) {
-    const dates = new Date(date).toLocaleDateString('id-ID', {
-        day: '2-digit'
-    });
-    const month = new Date(date).toLocaleDateString('id-ID', {
-        month: 'long'
-    });
     return (
         <div className="notes" onClick={onClick}>
             <div className="notes-date">
